@@ -1,0 +1,25 @@
+{
+  "name": "idbi/phpproto",
+  "description": "PHP Protobuf implementation for gRPC",
+  "license": "MIT",
+  "type": "library",
+  "version": "0.0.1",
+  "keywords": [
+    "proto",
+    "grpc",
+    "php"
+  ],
+  "autoload": {
+    "psr-4": {
+      "IDBI\\PHPProto\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "ext-grpc": "1.57.0",
+    "grpc/grpc": "1.57.0",
+    "google/protobuf": "^3.25",
+    "google/common-protos": "^4.5",
+    "gsols/validate": "^0.1.1"
+  }
+}
