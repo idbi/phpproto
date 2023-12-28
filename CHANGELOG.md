@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.0.1 (2023-12-28)
+
+
+### Features
+
+* add buf linters ([d188c72](https://github.com/idbi/phpproto/commit/d188c72dda388b19f51507e6906f825d8c8dfbd6))
+* fix directory structure ([f6275a2](https://github.com/idbi/phpproto/commit/f6275a29d53a54eee146aae3cd62a9554891f178))
+* fix url ([a42e471](https://github.com/idbi/phpproto/commit/a42e4712394af6309ea330b4e47c212c8f87431c))
+* initial php release [gsols/proto-apis@51abea61c6f050383ac8449e8dc97c1f35bfcd9f] ([3ff697d](https://github.com/idbi/phpproto/commit/3ff697d62a23f7352658c4ed9d5b5bdf4f569aca))
+* initial release ([b3e118b](https://github.com/idbi/phpproto/commit/b3e118b1c72fd9096fcb74ce5ef243b373bd317b))
+
 ## [0.0.3](https://github.com/gsols/phpproto/compare/v0.0.2...v0.0.3) (2023-12-09)
 
 
