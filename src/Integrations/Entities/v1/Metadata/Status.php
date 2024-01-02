@@ -22,11 +22,11 @@ class Status
         \GPBMetadata\Validate\Validate::initOnce();
         $pool->internalAddGeneratedFile(
             '
-„
-%integrations/entities/v1/status.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto"m
+›
+%integrations/entities/v1/status.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto"g
 Status
-id (	Rid
-message (	Rmessage9
+id (	Rid
+name (	Rname9
 
 created_at (2.google.protobuf.TimestampR	createdAtBêZ3github.com/idbi/goproto/integrations/entities/v1;v1 &IDBI\\PHPProto\\Integrations\\Entities\\v1‚/IDBI\\PHPProto\\Integrations\\Entities\\v1\\Metadatabproto3'
         , true);
