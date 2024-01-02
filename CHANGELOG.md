@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/idbi/phpproto/compare/v0.0.1...v0.1.0) (2024-01-02)
+
+
+### Features
+
+* change name [gsols/proto-apis@b5941b6181b208494c6e188855a9be40bb346062] ([aeada3f](https://github.com/idbi/phpproto/commit/aeada3f7b2adb14ff0d0833cf0981cff02000ab0))
+
 ## 0.0.1 (2023-12-28)
 
 
