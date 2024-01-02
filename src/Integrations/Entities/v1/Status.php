@@ -18,9 +18,9 @@ class Status extends \Google\Protobuf\Internal\Message
      */
     protected $id = '';
     /**
-     * Generated from protobuf field <code>string message = 2 [json_name = "message"];</code>
+     * Generated from protobuf field <code>string name = 2 [json_name = "name"];</code>
      */
-    protected $message = '';
+    protected $name = '';
     /**
      * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
      */
@@ -33,7 +33,7 @@ class Status extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type string $id
-     *     @type string $message
+     *     @type string $name
      *     @type \Google\Protobuf\Timestamp $created_at
      * }
      */
@@ -65,23 +65,23 @@ class Status extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string message = 2 [json_name = "message"];</code>
+     * Generated from protobuf field <code>string name = 2 [json_name = "name"];</code>
      * @return string
      */
-    public function getMessage()
+    public function getName()
     {
-        return $this->message;
+        return $this->name;
     }
 
     /**
-     * Generated from protobuf field <code>string message = 2 [json_name = "message"];</code>
+     * Generated from protobuf field <code>string name = 2 [json_name = "name"];</code>
      * @param string $var
      * @return $this
      */
-    public function setMessage($var)
+    public function setName($var)
     {
         GPBUtil::checkString($var, True);
-        $this->message = $var;
+        $this->name = $var;
 
         return $this;
     }

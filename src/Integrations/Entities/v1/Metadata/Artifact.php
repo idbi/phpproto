@@ -23,11 +23,11 @@ class Artifact
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Task::initOnce();
         $pool->internalAddGeneratedFile(
             '
-√
-\'integrations/entities/v1/artifact.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto#integrations/entities/v1/task.proto"•
+ª
+\'integrations/entities/v1/artifact.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto#integrations/entities/v1/task.proto"ù
 Artifact
-id (	Rid
-artifact (	Rartifact2
+id (	Rid
+path (	Rpath2
 task (2.integrations.entities.v1.TaskRtask9
 
 created_at (2.google.protobuf.TimestampR	createdAtBêZ3github.com/idbi/goproto/integrations/entities/v1;v1 &IDBI\\PHPProto\\Integrations\\Entities\\v1‚/IDBI\\PHPProto\\Integrations\\Entities\\v1\\Metadatabproto3'

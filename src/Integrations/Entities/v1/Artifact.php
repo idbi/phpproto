@@ -18,9 +18,9 @@ class Artifact extends \Google\Protobuf\Internal\Message
      */
     protected $id = '';
     /**
-     * Generated from protobuf field <code>string artifact = 2 [json_name = "artifact"];</code>
+     * Generated from protobuf field <code>string path = 2 [json_name = "path"];</code>
      */
-    protected $artifact = '';
+    protected $path = '';
     /**
      * Generated from protobuf field <code>.integrations.entities.v1.Task task = 3 [json_name = "task"];</code>
      */
@@ -37,7 +37,7 @@ class Artifact extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type string $id
-     *     @type string $artifact
+     *     @type string $path
      *     @type \IDBI\PHPProto\Integrations\Entities\v1\Task $task
      *     @type \Google\Protobuf\Timestamp $created_at
      * }
@@ -70,23 +70,23 @@ class Artifact extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string artifact = 2 [json_name = "artifact"];</code>
+     * Generated from protobuf field <code>string path = 2 [json_name = "path"];</code>
      * @return string
      */
-    public function getArtifact()
+    public function getPath()
     {
-        return $this->artifact;
+        return $this->path;
     }
 
     /**
-     * Generated from protobuf field <code>string artifact = 2 [json_name = "artifact"];</code>
+     * Generated from protobuf field <code>string path = 2 [json_name = "path"];</code>
      * @param string $var
      * @return $this
      */
-    public function setArtifact($var)
+    public function setPath($var)
     {
         GPBUtil::checkString($var, True);
-        $this->artifact = $var;
+        $this->path = $var;
 
         return $this;
     }
