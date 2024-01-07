@@ -22,13 +22,14 @@ class Owner
         \GPBMetadata\Validate\Validate::initOnce();
         $pool->internalAddGeneratedFile(
             '
-€
-$integrations/entities/v1/owner.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto"f
-Owner
-id (	Rid
-name (	Rname9
+Ù
+$integrations/entities/v1/owner.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto"
+Owner
+id (	B˙Br–∞Rid
+name (	B
+˙BrˇRname9
 
-created_at (2.google.protobuf.TimestampR	createdAtBêZ3github.com/idbi/goproto/integrations/entities/v1;v1 &IDBI\\PHPProto\\Integrations\\Entities\\v1‚/IDBI\\PHPProto\\Integrations\\Entities\\v1\\Metadatabproto3'
+created_at (2.google.protobuf.TimestampR	createdAtBêZ3github.com/idbi/goproto/integrations/entities/v1;v1 &IDBI\\PHPProto\\Integrations\\Entities\\v1‚/IDBI\\PHPProto\\Integrations\\Entities\\v1\\Metadatabproto3'
         , true);
 
         static::$is_initialized = true;

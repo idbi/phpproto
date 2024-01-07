@@ -14,15 +14,15 @@ use Google\Protobuf\Internal\GPBUtil;
 class Status extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>string id = 1 [json_name = "id"];</code>
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
      */
     protected $id = '';
     /**
-     * Generated from protobuf field <code>string name = 2 [json_name = "name"];</code>
+     * Generated from protobuf field <code>string name = 2 [json_name = "name", (.validate.rules) = {</code>
      */
     protected $name = '';
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 3 [json_name = "createdAt"];</code>
      */
     protected $created_at = null;
 
@@ -43,7 +43,7 @@ class Status extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string id = 1 [json_name = "id"];</code>
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
      * @return string
      */
     public function getId()
@@ -52,7 +52,7 @@ class Status extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string id = 1 [json_name = "id"];</code>
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */
@@ -65,7 +65,7 @@ class Status extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string name = 2 [json_name = "name"];</code>
+     * Generated from protobuf field <code>string name = 2 [json_name = "name", (.validate.rules) = {</code>
      * @return string
      */
     public function getName()
@@ -74,7 +74,7 @@ class Status extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string name = 2 [json_name = "name"];</code>
+     * Generated from protobuf field <code>string name = 2 [json_name = "name", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */
@@ -87,7 +87,7 @@ class Status extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 3 [json_name = "createdAt"];</code>
      * @return \Google\Protobuf\Timestamp|null
      */
     public function getCreatedAt()
@@ -106,7 +106,7 @@ class Status extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 3 [json_name = "createdAt"];</code>
      * @param \Google\Protobuf\Timestamp $var
      * @return $this
      */

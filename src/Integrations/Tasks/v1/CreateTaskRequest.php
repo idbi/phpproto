@@ -14,7 +14,7 @@ use Google\Protobuf\Internal\GPBUtil;
 class CreateTaskRequest extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId"];</code>
+     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId", (.validate.rules) = {</code>
      */
     protected $integration_id = '';
     /**
@@ -38,7 +38,7 @@ class CreateTaskRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId"];</code>
+     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId", (.validate.rules) = {</code>
      * @return string
      */
     public function getIntegrationId()
@@ -47,7 +47,7 @@ class CreateTaskRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId"];</code>
+     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */

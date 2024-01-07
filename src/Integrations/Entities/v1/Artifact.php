@@ -14,7 +14,7 @@ use Google\Protobuf\Internal\GPBUtil;
 class Artifact extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>string id = 1 [json_name = "id"];</code>
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
      */
     protected $id = '';
     /**
@@ -43,7 +43,7 @@ class Artifact extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string id = 1 [json_name = "id"];</code>
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
      * @return string
      */
     public function getId()
@@ -52,7 +52,7 @@ class Artifact extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string id = 1 [json_name = "id"];</code>
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */

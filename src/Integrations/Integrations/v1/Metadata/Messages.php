@@ -25,7 +25,7 @@ class Messages
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Owner::initOnce();
         $pool->internalAddGeneratedFile(
             '
-î
+ì
 +integrations/integrations/v1/messages.protointegrations.integrations.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto*integrations/entities/v1/integration.proto%integrations/entities/v1/result.proto$integrations/entities/v1/owner.proto"?
 GetIntegrationsRequest%
 owner_id (	B
@@ -39,25 +39,24 @@ class Messages
 RegisterIntegrationResponse8
 result (2 .integrations.entities.v1.ResultRresultG
 integration (2%.integrations.entities.v1.IntegrationRintegration"œ
-$RegisterIntegrationParametersRequest/
+$RegisterIntegrationPropertiesRequest/
 integration_id (	BúBr°RintegrationIdC
 
 parameters (2#.integrations.entities.v1.ParameterR
 parameters"a
-%RegisterIntegrationParametersResponse8
+%RegisterIntegrationPropertiesResponse8
 result (2 .integrations.entities.v1.ResultRresult"R
-GetIntegrationParametersRequest/
+GetIntegrationPropertiesRequest/
 integration_id (	BúBr°RintegrationId"¡
- GetIntegrationParametersResponse8
+ GetIntegrationPropertiesResponse8
 result (2 .integrations.entities.v1.ResultRresultC
 
 parameters (2#.integrations.entities.v1.ParameterR
-parameters"”
-"RemoveIntegrationParametersRequest/
-integration_id (	BúBr°RintegrationId=
-parameter_ids (	BúB’d"
-rÿ°RparameterIds"_
-#RemoveIntegrationParametersResponse8
+parameters"’
+"RemoveIntegrationPropertiesRequest/
+integration_id (	BúBr°RintegrationId;
+parameter_ids (	BúB’d"rÐ°RparameterIds"_
+#RemoveIntegrationPropertiesResponse8
 result (2 .integrations.entities.v1.ResultRresultBœZ7github.com/idbi/goproto/integrations/integrations/v1;v1Ê*IDBI\\PHPProto\\Integrations\\Integrations\\v1â3IDBI\\PHPProto\\Integrations\\Integrations\\v1\\Metadatabproto3'
         , true);
 

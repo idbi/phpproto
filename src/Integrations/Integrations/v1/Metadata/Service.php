@@ -28,9 +28,9 @@ class Service
 Serviceò
 GetIntegrations4.integrations.integrations.v1.GetIntegrationsRequest5.integrations.integrations.v1.GetIntegrationsResponse"Ç”‰ì/v1/integrationsß
 RegisterIntegration8.integrations.integrations.v1.RegisterIntegrationRequest9.integrations.integrations.v1.RegisterIntegrationResponse"Ç”‰ì:*"/v1/integrations·
-RegisterIntegrationParametersB.integrations.integrations.v1.RegisterIntegrationParametersRequestC.integrations.integrations.v1.RegisterIntegrationParametersResponse"7Ç”‰ì1:*",/v1/integrations/{integration_id}/parametersœ
-GetIntegrationParameters=.integrations.integrations.v1.GetIntegrationParametersRequest>.integrations.integrations.v1.GetIntegrationParametersResponse"4Ç”‰ì.,/v1/integrations/{integration_id}/parametersÁ
-RemoveIntegrationParameters@.integrations.integrations.v1.RemoveIntegrationParametersRequestA.integrations.integrations.v1.RemoveIntegrationParametersResponse"CÇ”‰ì=*;/v1/integrations/{integration_id}/parameters/{parameter_id}BúZ7github.com/idbi/goproto/integrations/integrations/v1;v1 *IDBI\\PHPProto\\Integrations\\Integrations\\v1‚3IDBI\\PHPProto\\Integrations\\Integrations\\v1\\Metadatabproto3'
+RegisterIntegrationPropertiesB.integrations.integrations.v1.RegisterIntegrationPropertiesRequestC.integrations.integrations.v1.RegisterIntegrationPropertiesResponse"7Ç”‰ì1:*",/v1/integrations/{integration_id}/parametersœ
+GetIntegrationProperties=.integrations.integrations.v1.GetIntegrationPropertiesRequest>.integrations.integrations.v1.GetIntegrationPropertiesResponse"4Ç”‰ì.,/v1/integrations/{integration_id}/parametersÁ
+RemoveIntegrationProperties@.integrations.integrations.v1.RemoveIntegrationPropertiesRequestA.integrations.integrations.v1.RemoveIntegrationPropertiesResponse"CÇ”‰ì=*;/v1/integrations/{integration_id}/parameters/{parameter_id}BúZ7github.com/idbi/goproto/integrations/integrations/v1;v1 *IDBI\\PHPProto\\Integrations\\Integrations\\v1‚3IDBI\\PHPProto\\Integrations\\Integrations\\v1\\Metadatabproto3'
         , true);
 
         static::$is_initialized = true;
