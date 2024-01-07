@@ -14,13 +14,13 @@ use Google\Protobuf\Internal\GPBUtil;
 class RegisterIntegrationRequest extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 1 [json_name = "owner"];</code>
+     * Generated from protobuf field <code>string owner_id = 1 [json_name = "ownerId", (.validate.rules) = {</code>
      */
-    protected $owner = null;
+    protected $owner_id = '';
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Integration integration = 2 [json_name = "integration"];</code>
+     * Generated from protobuf field <code>string integration_id = 2 [json_name = "integrationId", (.validate.rules) = {</code>
      */
-    protected $integration = null;
+    protected $integration_id = '';
 
     /**
      * Constructor.
@@ -28,8 +28,8 @@ class RegisterIntegrationRequest extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type \IDBI\PHPProto\Integrations\Entities\v1\Owner $owner
-     *     @type \IDBI\PHPProto\Integrations\Entities\v1\Integration $integration
+     *     @type string $owner_id
+     *     @type string $integration_id
      * }
      */
     public function __construct($data = NULL) {
@@ -38,65 +38,45 @@ class RegisterIntegrationRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 1 [json_name = "owner"];</code>
-     * @return \IDBI\PHPProto\Integrations\Entities\v1\Owner|null
+     * Generated from protobuf field <code>string owner_id = 1 [json_name = "ownerId", (.validate.rules) = {</code>
+     * @return string
      */
-    public function getOwner()
+    public function getOwnerId()
     {
-        return $this->owner;
-    }
-
-    public function hasOwner()
-    {
-        return isset($this->owner);
-    }
-
-    public function clearOwner()
-    {
-        unset($this->owner);
+        return $this->owner_id;
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 1 [json_name = "owner"];</code>
-     * @param \IDBI\PHPProto\Integrations\Entities\v1\Owner $var
+     * Generated from protobuf field <code>string owner_id = 1 [json_name = "ownerId", (.validate.rules) = {</code>
+     * @param string $var
      * @return $this
      */
-    public function setOwner($var)
+    public function setOwnerId($var)
     {
-        GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\Owner::class);
-        $this->owner = $var;
+        GPBUtil::checkString($var, True);
+        $this->owner_id = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Integration integration = 2 [json_name = "integration"];</code>
-     * @return \IDBI\PHPProto\Integrations\Entities\v1\Integration|null
+     * Generated from protobuf field <code>string integration_id = 2 [json_name = "integrationId", (.validate.rules) = {</code>
+     * @return string
      */
-    public function getIntegration()
+    public function getIntegrationId()
     {
-        return $this->integration;
-    }
-
-    public function hasIntegration()
-    {
-        return isset($this->integration);
-    }
-
-    public function clearIntegration()
-    {
-        unset($this->integration);
+        return $this->integration_id;
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Integration integration = 2 [json_name = "integration"];</code>
-     * @param \IDBI\PHPProto\Integrations\Entities\v1\Integration $var
+     * Generated from protobuf field <code>string integration_id = 2 [json_name = "integrationId", (.validate.rules) = {</code>
+     * @param string $var
      * @return $this
      */
-    public function setIntegration($var)
+    public function setIntegrationId($var)
     {
-        GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\Integration::class);
-        $this->integration = $var;
+        GPBUtil::checkString($var, True);
+        $this->integration_id = $var;
 
         return $this;
     }

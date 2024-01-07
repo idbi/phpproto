@@ -22,11 +22,7 @@ class Artifact extends \Google\Protobuf\Internal\Message
      */
     protected $path = '';
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Task task = 3 [json_name = "task"];</code>
-     */
-    protected $task = null;
-    /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 3 [json_name = "createdAt"];</code>
      */
     protected $created_at = null;
 
@@ -38,7 +34,6 @@ class Artifact extends \Google\Protobuf\Internal\Message
      *
      *     @type string $id
      *     @type string $path
-     *     @type \IDBI\PHPProto\Integrations\Entities\v1\Task $task
      *     @type \Google\Protobuf\Timestamp $created_at
      * }
      */
@@ -92,39 +87,7 @@ class Artifact extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Task task = 3 [json_name = "task"];</code>
-     * @return \IDBI\PHPProto\Integrations\Entities\v1\Task|null
-     */
-    public function getTask()
-    {
-        return $this->task;
-    }
-
-    public function hasTask()
-    {
-        return isset($this->task);
-    }
-
-    public function clearTask()
-    {
-        unset($this->task);
-    }
-
-    /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Task task = 3 [json_name = "task"];</code>
-     * @param \IDBI\PHPProto\Integrations\Entities\v1\Task $var
-     * @return $this
-     */
-    public function setTask($var)
-    {
-        GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\Task::class);
-        $this->task = $var;
-
-        return $this;
-    }
-
-    /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 3 [json_name = "createdAt"];</code>
      * @return \Google\Protobuf\Timestamp|null
      */
     public function getCreatedAt()
@@ -143,7 +106,7 @@ class Artifact extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 3 [json_name = "createdAt"];</code>
      * @param \Google\Protobuf\Timestamp $var
      * @return $this
      */
