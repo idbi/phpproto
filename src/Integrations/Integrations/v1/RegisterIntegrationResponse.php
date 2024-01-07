@@ -17,6 +17,10 @@ class RegisterIntegrationResponse extends \Google\Protobuf\Internal\Message
      * Generated from protobuf field <code>.integrations.entities.v1.Result result = 1 [json_name = "result"];</code>
      */
     protected $result = null;
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Integration integration = 2 [json_name = "integration"];</code>
+     */
+    protected $integration = null;
 
     /**
      * Constructor.
@@ -25,6 +29,7 @@ class RegisterIntegrationResponse extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type \IDBI\PHPProto\Integrations\Entities\v1\Result $result
+     *     @type \IDBI\PHPProto\Integrations\Entities\v1\Integration $integration
      * }
      */
     public function __construct($data = NULL) {
@@ -60,6 +65,38 @@ class RegisterIntegrationResponse extends \Google\Protobuf\Internal\Message
     {
         GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\Result::class);
         $this->result = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Integration integration = 2 [json_name = "integration"];</code>
+     * @return \IDBI\PHPProto\Integrations\Entities\v1\Integration|null
+     */
+    public function getIntegration()
+    {
+        return $this->integration;
+    }
+
+    public function hasIntegration()
+    {
+        return isset($this->integration);
+    }
+
+    public function clearIntegration()
+    {
+        unset($this->integration);
+    }
+
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Integration integration = 2 [json_name = "integration"];</code>
+     * @param \IDBI\PHPProto\Integrations\Entities\v1\Integration $var
+     * @return $this
+     */
+    public function setIntegration($var)
+    {
+        GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\Integration::class);
+        $this->integration = $var;
 
         return $this;
     }

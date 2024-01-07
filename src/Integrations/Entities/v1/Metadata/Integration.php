@@ -23,17 +23,21 @@ class Integration
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Owner::initOnce();
         $pool->internalAddGeneratedFile(
             '
-ú
-*integrations/entities/v1/integration.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto$integrations/entities/v1/owner.proto"£
-Integration
-id (	Rid
-name (	Rname5
+Â
+*integrations/entities/v1/integration.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto$integrations/entities/v1/owner.proto"¹
+Integration
+id (	BúBr°Rid
+name (	B
+úBrÿRname5
 owner (2.integrations.entities.v1.OwnerRowner9
 
-created_at (2.google.protobuf.TimestampR	createdAt"3
-	Parameter
-key (	Rkey
-value (	RvalueBZ3github.com/idbi/goproto/integrations/entities/v1;v1Ê&IDBI\\PHPProto\\Integrations\\Entities\\v1â/IDBI\\PHPProto\\Integrations\\Entities\\v1\\Metadatabproto3'
+created_at (2.google.protobuf.TimestampR	createdAt"e
+	Parameter
+id (	BúBr°Rid
+key (	B
+úBrÿRkey 
+value (	B
+úBrÿRvalueBZ3github.com/idbi/goproto/integrations/entities/v1;v1Ê&IDBI\\PHPProto\\Integrations\\Entities\\v1â/IDBI\\PHPProto\\Integrations\\Entities\\v1\\Metadatabproto3'
         , true);
 
         static::$is_initialized = true;

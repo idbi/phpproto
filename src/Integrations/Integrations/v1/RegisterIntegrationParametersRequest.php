@@ -14,9 +14,9 @@ use Google\Protobuf\Internal\GPBUtil;
 class RegisterIntegrationParametersRequest extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Integration integration = 1 [json_name = "integration"];</code>
+     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId", (.validate.rules) = {</code>
      */
-    protected $integration = null;
+    protected $integration_id = '';
     /**
      * Generated from protobuf field <code>repeated .integrations.entities.v1.Parameter parameters = 2 [json_name = "parameters"];</code>
      */
@@ -28,7 +28,7 @@ class RegisterIntegrationParametersRequest extends \Google\Protobuf\Internal\Mes
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type \IDBI\PHPProto\Integrations\Entities\v1\Integration $integration
+     *     @type string $integration_id
      *     @type array<\IDBI\PHPProto\Integrations\Entities\v1\Parameter>|\Google\Protobuf\Internal\RepeatedField $parameters
      * }
      */
@@ -38,33 +38,23 @@ class RegisterIntegrationParametersRequest extends \Google\Protobuf\Internal\Mes
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Integration integration = 1 [json_name = "integration"];</code>
-     * @return \IDBI\PHPProto\Integrations\Entities\v1\Integration|null
+     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId", (.validate.rules) = {</code>
+     * @return string
      */
-    public function getIntegration()
+    public function getIntegrationId()
     {
-        return $this->integration;
-    }
-
-    public function hasIntegration()
-    {
-        return isset($this->integration);
-    }
-
-    public function clearIntegration()
-    {
-        unset($this->integration);
+        return $this->integration_id;
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Integration integration = 1 [json_name = "integration"];</code>
-     * @param \IDBI\PHPProto\Integrations\Entities\v1\Integration $var
+     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId", (.validate.rules) = {</code>
+     * @param string $var
      * @return $this
      */
-    public function setIntegration($var)
+    public function setIntegrationId($var)
     {
-        GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\Integration::class);
-        $this->integration = $var;
+        GPBUtil::checkString($var, True);
+        $this->integration_id = $var;
 
         return $this;
     }

@@ -14,11 +14,15 @@ use Google\Protobuf\Internal\GPBUtil;
 class Parameter extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>string key = 1 [json_name = "key"];</code>
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
+     */
+    protected $id = '';
+    /**
+     * Generated from protobuf field <code>string key = 2 [json_name = "key", (.validate.rules) = {</code>
      */
     protected $key = '';
     /**
-     * Generated from protobuf field <code>string value = 2 [json_name = "value"];</code>
+     * Generated from protobuf field <code>string value = 3 [json_name = "value", (.validate.rules) = {</code>
      */
     protected $value = '';
 
@@ -28,6 +32,7 @@ class Parameter extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
+     *     @type string $id
      *     @type string $key
      *     @type string $value
      * }
@@ -38,7 +43,29 @@ class Parameter extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string key = 1 [json_name = "key"];</code>
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
+     * @return string
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
+     * @param string $var
+     * @return $this
+     */
+    public function setId($var)
+    {
+        GPBUtil::checkString($var, True);
+        $this->id = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>string key = 2 [json_name = "key", (.validate.rules) = {</code>
      * @return string
      */
     public function getKey()
@@ -47,7 +74,7 @@ class Parameter extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string key = 1 [json_name = "key"];</code>
+     * Generated from protobuf field <code>string key = 2 [json_name = "key", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */
@@ -60,7 +87,7 @@ class Parameter extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string value = 2 [json_name = "value"];</code>
+     * Generated from protobuf field <code>string value = 3 [json_name = "value", (.validate.rules) = {</code>
      * @return string
      */
     public function getValue()
@@ -69,7 +96,7 @@ class Parameter extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string value = 2 [json_name = "value"];</code>
+     * Generated from protobuf field <code>string value = 3 [json_name = "value", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */

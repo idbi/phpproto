@@ -25,37 +25,36 @@ class Messages
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Owner::initOnce();
         $pool->internalAddGeneratedFile(
             '
-ë
+î
 +integrations/integrations/v1/messages.protointegrations.integrations.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto*integrations/entities/v1/integration.proto%integrations/entities/v1/result.proto$integrations/entities/v1/owner.proto"?
 GetIntegrationsRequest%
 owner_id (	B
 úBrÿRownerId"ž
 GetIntegrationsResponse8
 result (2 .integrations.entities.v1.ResultRresultI
-integrations (2%.integrations.entities.v1.IntegrationRintegrations"œ
-RegisterIntegrationRequest5
-owner (2.integrations.entities.v1.OwnerRownerG
-integration (2%.integrations.entities.v1.IntegrationRintegration"W
+integrations (2%.integrations.entities.v1.IntegrationRintegrations"r
+RegisterIntegrationRequest#
+owner_id (	BúBr°RownerId/
+integration_id (	BúBr°RintegrationId" 
 RegisterIntegrationResponse8
-result (2 .integrations.entities.v1.ResultRresult"´
-$RegisterIntegrationParametersRequestG
-integration (2%.integrations.entities.v1.IntegrationRintegrationC
+result (2 .integrations.entities.v1.ResultRresultG
+integration (2%.integrations.entities.v1.IntegrationRintegration"œ
+$RegisterIntegrationParametersRequest/
+integration_id (	BúBr°RintegrationIdC
 
 parameters (2#.integrations.entities.v1.ParameterR
 parameters"a
 %RegisterIntegrationParametersResponse8
-result (2 .integrations.entities.v1.ResultRresult"T
-GetIntegrationParametersRequest1
-integration_id (	B
-úBrÿRintegrationId"¡
+result (2 .integrations.entities.v1.ResultRresult"R
+GetIntegrationParametersRequest/
+integration_id (	BúBr°RintegrationId"¡
  GetIntegrationParametersResponse8
 result (2 .integrations.entities.v1.ResultRresultC
 
 parameters (2#.integrations.entities.v1.ParameterR
-parameters"–
-"RemoveIntegrationParametersRequest1
-integration_id (	B
-úBrÿRintegrationId=
+parameters"”
+"RemoveIntegrationParametersRequest/
+integration_id (	BúBr°RintegrationId=
 parameter_ids (	BúB’d"
 rÿ°RparameterIds"_
 #RemoveIntegrationParametersResponse8

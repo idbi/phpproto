@@ -14,11 +14,11 @@ use Google\Protobuf\Internal\GPBUtil;
 class Integration extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>string id = 1 [json_name = "id"];</code>
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
      */
     protected $id = '';
     /**
-     * Generated from protobuf field <code>string name = 2 [json_name = "name"];</code>
+     * Generated from protobuf field <code>string name = 2 [json_name = "name", (.validate.rules) = {</code>
      */
     protected $name = '';
     /**
@@ -48,7 +48,7 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string id = 1 [json_name = "id"];</code>
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
      * @return string
      */
     public function getId()
@@ -57,7 +57,7 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string id = 1 [json_name = "id"];</code>
+     * Generated from protobuf field <code>string id = 1 [json_name = "id", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */
@@ -70,7 +70,7 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string name = 2 [json_name = "name"];</code>
+     * Generated from protobuf field <code>string name = 2 [json_name = "name", (.validate.rules) = {</code>
      * @return string
      */
     public function getName()
@@ -79,7 +79,7 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string name = 2 [json_name = "name"];</code>
+     * Generated from protobuf field <code>string name = 2 [json_name = "name", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */
