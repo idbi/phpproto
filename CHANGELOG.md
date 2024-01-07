@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/idbi/phpproto/compare/v0.1.1...v0.1.2) (2024-01-07)
+
+
+### Bug Fixes
+
+* validation rules on empty body [gsols/proto-apis@ba36521a4e98700a8b9b28bbaaaed9f8680689c1] ([f70e900](https://github.com/idbi/phpproto/commit/f70e90028df07c3216fda814bf4360fba8cc658d))
+
 ## [0.1.1](https://github.com/idbi/phpproto/compare/v0.1.0...v0.1.1) (2024-01-07)
 
 
