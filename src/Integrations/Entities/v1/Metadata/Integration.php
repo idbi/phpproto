@@ -23,7 +23,7 @@ class Integration
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Owner::initOnce();
         $pool->internalAddGeneratedFile(
             '
-È
+Ç
 *integrations/entities/v1/integration.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto$integrations/entities/v1/owner.proto"¼
 Integration
 id (	BúBrÐ°Rid
@@ -31,8 +31,8 @@ class Integration
 úBrÿRname5
 owner (2.integrations.entities.v1.OwnerRowner9
 
-created_at (2.google.protobuf.TimestampR	createdAt"h
-	Parameter
+created_at (2.google.protobuf.TimestampR	createdAt"g
+Property
 id (	BúBrÐ°Rid
 key (	B
 úBrÿRkey 

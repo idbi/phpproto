@@ -25,7 +25,7 @@ class Messages
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Owner::initOnce();
         $pool->internalAddGeneratedFile(
             '
-ì
+ê
 +integrations/integrations/v1/messages.protointegrations.integrations.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto*integrations/entities/v1/integration.proto%integrations/entities/v1/result.proto$integrations/entities/v1/owner.proto"?
 GetIntegrationsRequest%
 owner_id (	B
@@ -38,21 +38,21 @@ class Messages
 integration_id (	BúBr°RintegrationId" 
 RegisterIntegrationResponse8
 result (2 .integrations.entities.v1.ResultRresultG
-integration (2%.integrations.entities.v1.IntegrationRintegration"œ
+integration (2%.integrations.entities.v1.IntegrationRintegration"›
 $RegisterIntegrationPropertiesRequest/
-integration_id (	BúBr°RintegrationIdC
+integration_id (	BúBr°RintegrationIdB
 
-parameters (2#.integrations.entities.v1.ParameterR
-parameters"a
+properties (2".integrations.entities.v1.PropertyR
+properties"a
 %RegisterIntegrationPropertiesResponse8
 result (2 .integrations.entities.v1.ResultRresult"R
 GetIntegrationPropertiesRequest/
-integration_id (	BúBr°RintegrationId"¡
+integration_id (	BúBr°RintegrationId" 
  GetIntegrationPropertiesResponse8
-result (2 .integrations.entities.v1.ResultRresultC
+result (2 .integrations.entities.v1.ResultRresultB
 
-parameters (2#.integrations.entities.v1.ParameterR
-parameters"’
+properties (2".integrations.entities.v1.PropertyR
+properties"’
 "RemoveIntegrationPropertiesRequest/
 integration_id (	BúBr°RintegrationId;
 parameter_ids (	BúB’d"rÐ°RparameterIds"_
