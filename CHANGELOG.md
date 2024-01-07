@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/idbi/phpproto/compare/v0.1.3...v0.1.4) (2024-01-07)
+
+
+### Bug Fixes
+
+* incorrect variable name. replace parameters by properties [gsols/proto-apis@6021d89be6dc2a5beeb09b35deb098b718476686] ([97c63a6](https://github.com/idbi/phpproto/commit/97c63a6d116fabac2596e32910abb952e9e28753))
+
 ## [0.1.3](https://github.com/idbi/phpproto/compare/v0.1.2...v0.1.3) (2024-01-07)
 
 
