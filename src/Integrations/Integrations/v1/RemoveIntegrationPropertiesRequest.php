@@ -18,9 +18,9 @@ class RemoveIntegrationPropertiesRequest extends \Google\Protobuf\Internal\Messa
      */
     protected $integration_id = '';
     /**
-     * Generated from protobuf field <code>repeated string parameter_ids = 2 [json_name = "parameterIds", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>repeated string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
      */
-    private $parameter_ids;
+    private $property_ids;
 
     /**
      * Constructor.
@@ -29,7 +29,7 @@ class RemoveIntegrationPropertiesRequest extends \Google\Protobuf\Internal\Messa
      *     Optional. Data for populating the Message object.
      *
      *     @type string $integration_id
-     *     @type array<string>|\Google\Protobuf\Internal\RepeatedField $parameter_ids
+     *     @type array<string>|\Google\Protobuf\Internal\RepeatedField $property_ids
      * }
      */
     public function __construct($data = NULL) {
@@ -60,23 +60,23 @@ class RemoveIntegrationPropertiesRequest extends \Google\Protobuf\Internal\Messa
     }
 
     /**
-     * Generated from protobuf field <code>repeated string parameter_ids = 2 [json_name = "parameterIds", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>repeated string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
      * @return \Google\Protobuf\Internal\RepeatedField
      */
-    public function getParameterIds()
+    public function getPropertyIds()
     {
-        return $this->parameter_ids;
+        return $this->property_ids;
     }
 
     /**
-     * Generated from protobuf field <code>repeated string parameter_ids = 2 [json_name = "parameterIds", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>repeated string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
      * @param array<string>|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
-    public function setParameterIds($var)
+    public function setPropertyIds($var)
     {
         $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::STRING);
-        $this->parameter_ids = $arr;
+        $this->property_ids = $arr;
 
         return $this;
     }
