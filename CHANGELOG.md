@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/idbi/phpproto/compare/v0.1.2...v0.1.3) (2024-01-07)
+
+
+### Bug Fixes
+
+* rename variable [gsols/proto-apis@a4890216fcfcba76fee15d79e764989069375eb3] ([e515530](https://github.com/idbi/phpproto/commit/e515530de29298e7bfcd5ed92d21540a7751c005))
+
 ## [0.1.2](https://github.com/idbi/phpproto/compare/v0.1.1...v0.1.2) (2024-01-07)
 
 
