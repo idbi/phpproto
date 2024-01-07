@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/idbi/phpproto/compare/v0.1.0...v0.1.1) (2024-01-07)
+
+
+### Bug Fixes
+
+* mapping to internal [gsols/proto-apis@5b7c49d3e8768ae274b8b2435a9de3745074009e] ([766cadd](https://github.com/idbi/phpproto/commit/766cadd1807f8b767d32ec538b3c1ecfea9d0d4f))
+
 ## [0.1.0](https://github.com/idbi/phpproto/compare/v0.0.1...v0.1.0) (2024-01-02)
 
 
