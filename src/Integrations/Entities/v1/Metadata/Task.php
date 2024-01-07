@@ -24,11 +24,12 @@ class Task
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Owner::initOnce();
         $pool->internalAddGeneratedFile(
             '
-˜
-#integrations/entities/v1/task.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto%integrations/entities/v1/status.proto$integrations/entities/v1/owner.proto"Ö
-Task
-id (	Rid
-name (	Rname8
+±
+#integrations/entities/v1/task.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto%integrations/entities/v1/status.proto$integrations/entities/v1/owner.proto"ï
+Task
+id (	BúBrÐ°Rid
+name (	B
+úBrÿRname8
 status (2 .integrations.entities.v1.StatusRstatus5
 owner (2.integrations.entities.v1.OwnerRowner9
 

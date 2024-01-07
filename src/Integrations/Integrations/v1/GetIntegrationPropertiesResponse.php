@@ -9,14 +9,18 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>integrations.integrations.v1.RegisterIntegrationParametersResponse</code>
+ * Generated from protobuf message <code>integrations.integrations.v1.GetIntegrationPropertiesResponse</code>
  */
-class RegisterIntegrationParametersResponse extends \Google\Protobuf\Internal\Message
+class GetIntegrationPropertiesResponse extends \Google\Protobuf\Internal\Message
 {
     /**
      * Generated from protobuf field <code>.integrations.entities.v1.Result result = 1 [json_name = "result"];</code>
      */
     protected $result = null;
+    /**
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.Parameter parameters = 2 [json_name = "parameters"];</code>
+     */
+    private $parameters;
 
     /**
      * Constructor.
@@ -25,6 +29,7 @@ class RegisterIntegrationParametersResponse extends \Google\Protobuf\Internal\Me
      *     Optional. Data for populating the Message object.
      *
      *     @type \IDBI\PHPProto\Integrations\Entities\v1\Result $result
+     *     @type array<\IDBI\PHPProto\Integrations\Entities\v1\Parameter>|\Google\Protobuf\Internal\RepeatedField $parameters
      * }
      */
     public function __construct($data = NULL) {
@@ -60,6 +65,28 @@ class RegisterIntegrationParametersResponse extends \Google\Protobuf\Internal\Me
     {
         GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\Result::class);
         $this->result = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.Parameter parameters = 2 [json_name = "parameters"];</code>
+     * @return \Google\Protobuf\Internal\RepeatedField
+     */
+    public function getParameters()
+    {
+        return $this->parameters;
+    }
+
+    /**
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.Parameter parameters = 2 [json_name = "parameters"];</code>
+     * @param array<\IDBI\PHPProto\Integrations\Entities\v1\Parameter>|\Google\Protobuf\Internal\RepeatedField $var
+     * @return $this
+     */
+    public function setParameters($var)
+    {
+        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \IDBI\PHPProto\Integrations\Entities\v1\Parameter::class);
+        $this->parameters = $arr;
 
         return $this;
     }

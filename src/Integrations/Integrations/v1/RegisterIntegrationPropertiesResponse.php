@@ -9,9 +9,9 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>integrations.integrations.v1.RemoveIntegrationParametersResponse</code>
+ * Generated from protobuf message <code>integrations.integrations.v1.RegisterIntegrationPropertiesResponse</code>
  */
-class RemoveIntegrationParametersResponse extends \Google\Protobuf\Internal\Message
+class RegisterIntegrationPropertiesResponse extends \Google\Protobuf\Internal\Message
 {
     /**
      * Generated from protobuf field <code>.integrations.entities.v1.Result result = 1 [json_name = "result"];</code>

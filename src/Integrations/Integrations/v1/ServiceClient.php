@@ -45,44 +45,44 @@ class ServiceClient extends \Grpc\BaseStub {
     }
 
     /**
-     * @param \IDBI\PHPProto\Integrations\Integrations\v1\RegisterIntegrationParametersRequest $argument input argument
+     * @param \IDBI\PHPProto\Integrations\Integrations\v1\RegisterIntegrationPropertiesRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
      * @return \Grpc\UnaryCall
      */
-    public function RegisterIntegrationParameters(\IDBI\PHPProto\Integrations\Integrations\v1\RegisterIntegrationParametersRequest $argument,
+    public function RegisterIntegrationProperties(\IDBI\PHPProto\Integrations\Integrations\v1\RegisterIntegrationPropertiesRequest $argument,
       $metadata = [], $options = []) {
-        return $this->_simpleRequest('/integrations.integrations.v1.Service/RegisterIntegrationParameters',
+        return $this->_simpleRequest('/integrations.integrations.v1.Service/RegisterIntegrationProperties',
         $argument,
-        ['\IDBI\PHPProto\Integrations\Integrations\v1\RegisterIntegrationParametersResponse', 'decode'],
+        ['\IDBI\PHPProto\Integrations\Integrations\v1\RegisterIntegrationPropertiesResponse', 'decode'],
         $metadata, $options);
     }
 
     /**
-     * @param \IDBI\PHPProto\Integrations\Integrations\v1\GetIntegrationParametersRequest $argument input argument
+     * @param \IDBI\PHPProto\Integrations\Integrations\v1\GetIntegrationPropertiesRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
      * @return \Grpc\UnaryCall
      */
-    public function GetIntegrationParameters(\IDBI\PHPProto\Integrations\Integrations\v1\GetIntegrationParametersRequest $argument,
+    public function GetIntegrationProperties(\IDBI\PHPProto\Integrations\Integrations\v1\GetIntegrationPropertiesRequest $argument,
       $metadata = [], $options = []) {
-        return $this->_simpleRequest('/integrations.integrations.v1.Service/GetIntegrationParameters',
+        return $this->_simpleRequest('/integrations.integrations.v1.Service/GetIntegrationProperties',
         $argument,
-        ['\IDBI\PHPProto\Integrations\Integrations\v1\GetIntegrationParametersResponse', 'decode'],
+        ['\IDBI\PHPProto\Integrations\Integrations\v1\GetIntegrationPropertiesResponse', 'decode'],
         $metadata, $options);
     }
 
     /**
-     * @param \IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationParametersRequest $argument input argument
+     * @param \IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationPropertiesRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
      * @return \Grpc\UnaryCall
      */
-    public function RemoveIntegrationParameters(\IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationParametersRequest $argument,
+    public function RemoveIntegrationProperties(\IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationPropertiesRequest $argument,
       $metadata = [], $options = []) {
-        return $this->_simpleRequest('/integrations.integrations.v1.Service/RemoveIntegrationParameters',
+        return $this->_simpleRequest('/integrations.integrations.v1.Service/RemoveIntegrationProperties',
         $argument,
-        ['\IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationParametersResponse', 'decode'],
+        ['\IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationPropertiesResponse', 'decode'],
         $metadata, $options);
     }
 
