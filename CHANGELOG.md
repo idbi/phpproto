@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/idbi/phpproto/compare/v0.1.4...v0.1.5) (2024-01-08)
+
+
+### Bug Fixes
+
+* add  missing field [gsols/proto-apis@4d4d1e670ba2f3433cb2e6c80972f6bb3e5efa73] ([0c4064d](https://github.com/idbi/phpproto/commit/0c4064d1bfc57de2a83c456cc26053e443c235e0))
+
 ## [0.1.4](https://github.com/idbi/phpproto/compare/v0.1.3...v0.1.4) (2024-01-07)
 
 
