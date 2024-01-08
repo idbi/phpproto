@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/idbi/phpproto/compare/v0.1.5...v0.1.6) (2024-01-08)
+
+
+### Bug Fixes
+
+* add propierties to response [gsols/proto-apis@c49784eaa509b1186bfed007034d109879a9e1e7] ([8c9b23f](https://github.com/idbi/phpproto/commit/8c9b23f3e2f53f055bd71abb4975eedc361f156b))
+
 ## [0.1.5](https://github.com/idbi/phpproto/compare/v0.1.4...v0.1.5) (2024-01-08)
 
 
