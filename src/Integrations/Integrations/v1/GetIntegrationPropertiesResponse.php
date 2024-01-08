@@ -18,7 +18,7 @@ class GetIntegrationPropertiesResponse extends \Google\Protobuf\Internal\Message
      */
     protected $result = null;
     /**
-     * Generated from protobuf field <code>repeated .integrations.entities.v1.Property properties = 2 [json_name = "properties"];</code>
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.IntegrationProperty properties = 2 [json_name = "properties"];</code>
      */
     private $properties;
 
@@ -29,7 +29,7 @@ class GetIntegrationPropertiesResponse extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type \IDBI\PHPProto\Integrations\Entities\v1\Result $result
-     *     @type array<\IDBI\PHPProto\Integrations\Entities\v1\Property>|\Google\Protobuf\Internal\RepeatedField $properties
+     *     @type array<\IDBI\PHPProto\Integrations\Entities\v1\IntegrationProperty>|\Google\Protobuf\Internal\RepeatedField $properties
      * }
      */
     public function __construct($data = NULL) {
@@ -70,7 +70,7 @@ class GetIntegrationPropertiesResponse extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated .integrations.entities.v1.Property properties = 2 [json_name = "properties"];</code>
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.IntegrationProperty properties = 2 [json_name = "properties"];</code>
      * @return \Google\Protobuf\Internal\RepeatedField
      */
     public function getProperties()
@@ -79,13 +79,13 @@ class GetIntegrationPropertiesResponse extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated .integrations.entities.v1.Property properties = 2 [json_name = "properties"];</code>
-     * @param array<\IDBI\PHPProto\Integrations\Entities\v1\Property>|\Google\Protobuf\Internal\RepeatedField $var
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.IntegrationProperty properties = 2 [json_name = "properties"];</code>
+     * @param array<\IDBI\PHPProto\Integrations\Entities\v1\IntegrationProperty>|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setProperties($var)
     {
-        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \IDBI\PHPProto\Integrations\Entities\v1\Property::class);
+        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \IDBI\PHPProto\Integrations\Entities\v1\IntegrationProperty::class);
         $this->properties = $arr;
 
         return $this;

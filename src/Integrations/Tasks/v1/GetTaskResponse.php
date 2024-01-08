@@ -17,6 +17,10 @@ class GetTaskResponse extends \Google\Protobuf\Internal\Message
      * Generated from protobuf field <code>.integrations.entities.v1.Task task = 1 [json_name = "task"];</code>
      */
     protected $task = null;
+    /**
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 2 [json_name = "properties"];</code>
+     */
+    private $properties;
 
     /**
      * Constructor.
@@ -25,6 +29,7 @@ class GetTaskResponse extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type \IDBI\PHPProto\Integrations\Entities\v1\Task $task
+     *     @type array<\IDBI\PHPProto\Integrations\Entities\v1\TaskProperty>|\Google\Protobuf\Internal\RepeatedField $properties
      * }
      */
     public function __construct($data = NULL) {
@@ -60,6 +65,28 @@ class GetTaskResponse extends \Google\Protobuf\Internal\Message
     {
         GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\Task::class);
         $this->task = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 2 [json_name = "properties"];</code>
+     * @return \Google\Protobuf\Internal\RepeatedField
+     */
+    public function getProperties()
+    {
+        return $this->properties;
+    }
+
+    /**
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 2 [json_name = "properties"];</code>
+     * @param array<\IDBI\PHPProto\Integrations\Entities\v1\TaskProperty>|\Google\Protobuf\Internal\RepeatedField $var
+     * @return $this
+     */
+    public function setProperties($var)
+    {
+        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \IDBI\PHPProto\Integrations\Entities\v1\TaskProperty::class);
+        $this->properties = $arr;
 
         return $this;
     }

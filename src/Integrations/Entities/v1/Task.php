@@ -26,11 +26,7 @@ class Task extends \Google\Protobuf\Internal\Message
      */
     protected $status = null;
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 4 [json_name = "owner"];</code>
-     */
-    protected $owner = null;
-    /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 4 [json_name = "createdAt"];</code>
      */
     protected $created_at = null;
 
@@ -43,7 +39,6 @@ class Task extends \Google\Protobuf\Internal\Message
      *     @type string $id
      *     @type string $name
      *     @type \IDBI\PHPProto\Integrations\Entities\v1\Status $status
-     *     @type \IDBI\PHPProto\Integrations\Entities\v1\Owner $owner
      *     @type \Google\Protobuf\Timestamp $created_at
      * }
      */
@@ -129,39 +124,7 @@ class Task extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 4 [json_name = "owner"];</code>
-     * @return \IDBI\PHPProto\Integrations\Entities\v1\Owner|null
-     */
-    public function getOwner()
-    {
-        return $this->owner;
-    }
-
-    public function hasOwner()
-    {
-        return isset($this->owner);
-    }
-
-    public function clearOwner()
-    {
-        unset($this->owner);
-    }
-
-    /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 4 [json_name = "owner"];</code>
-     * @param \IDBI\PHPProto\Integrations\Entities\v1\Owner $var
-     * @return $this
-     */
-    public function setOwner($var)
-    {
-        GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\Owner::class);
-        $this->owner = $var;
-
-        return $this;
-    }
-
-    /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 4 [json_name = "createdAt"];</code>
      * @return \Google\Protobuf\Timestamp|null
      */
     public function getCreatedAt()
@@ -180,7 +143,7 @@ class Task extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 4 [json_name = "createdAt"];</code>
      * @param \Google\Protobuf\Timestamp $var
      * @return $this
      */
