@@ -14,11 +14,15 @@ use Google\Protobuf\Internal\GPBUtil;
 class GetTaskResponse extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Task task = 1 [json_name = "task"];</code>
+     * Generated from protobuf field <code>.integrations.entities.v1.Result result = 1 [json_name = "result"];</code>
+     */
+    protected $result = null;
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Task task = 2 [json_name = "task"];</code>
      */
     protected $task = null;
     /**
-     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 2 [json_name = "properties"];</code>
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 3 [json_name = "properties"];</code>
      */
     private $properties;
 
@@ -28,6 +32,7 @@ class GetTaskResponse extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
+     *     @type \IDBI\PHPProto\Integrations\Entities\v1\Result $result
      *     @type \IDBI\PHPProto\Integrations\Entities\v1\Task $task
      *     @type array<\IDBI\PHPProto\Integrations\Entities\v1\TaskProperty>|\Google\Protobuf\Internal\RepeatedField $properties
      * }
@@ -38,7 +43,39 @@ class GetTaskResponse extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Task task = 1 [json_name = "task"];</code>
+     * Generated from protobuf field <code>.integrations.entities.v1.Result result = 1 [json_name = "result"];</code>
+     * @return \IDBI\PHPProto\Integrations\Entities\v1\Result|null
+     */
+    public function getResult()
+    {
+        return $this->result;
+    }
+
+    public function hasResult()
+    {
+        return isset($this->result);
+    }
+
+    public function clearResult()
+    {
+        unset($this->result);
+    }
+
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Result result = 1 [json_name = "result"];</code>
+     * @param \IDBI\PHPProto\Integrations\Entities\v1\Result $var
+     * @return $this
+     */
+    public function setResult($var)
+    {
+        GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\Result::class);
+        $this->result = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Task task = 2 [json_name = "task"];</code>
      * @return \IDBI\PHPProto\Integrations\Entities\v1\Task|null
      */
     public function getTask()
@@ -57,7 +94,7 @@ class GetTaskResponse extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Task task = 1 [json_name = "task"];</code>
+     * Generated from protobuf field <code>.integrations.entities.v1.Task task = 2 [json_name = "task"];</code>
      * @param \IDBI\PHPProto\Integrations\Entities\v1\Task $var
      * @return $this
      */
@@ -70,7 +107,7 @@ class GetTaskResponse extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 2 [json_name = "properties"];</code>
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 3 [json_name = "properties"];</code>
      * @return \Google\Protobuf\Internal\RepeatedField
      */
     public function getProperties()
@@ -79,7 +116,7 @@ class GetTaskResponse extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 2 [json_name = "properties"];</code>
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 3 [json_name = "properties"];</code>
      * @param array<\IDBI\PHPProto\Integrations\Entities\v1\TaskProperty>|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
