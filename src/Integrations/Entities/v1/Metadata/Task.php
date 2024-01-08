@@ -24,16 +24,21 @@ class Task
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Owner::initOnce();
         $pool->internalAddGeneratedFile(
             '
-±
-#integrations/entities/v1/task.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto%integrations/entities/v1/status.proto$integrations/entities/v1/owner.proto"Ô
+Á
+#integrations/entities/v1/task.protointegrations.entities.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto%integrations/entities/v1/status.proto$integrations/entities/v1/owner.proto"∏
 Task
 id (	B˙Br–∞Rid
 name (	B
 ˙BrˇRname8
-status (2 .integrations.entities.v1.StatusRstatus5
-owner (2.integrations.entities.v1.OwnerRowner9
+status (2 .integrations.entities.v1.StatusRstatus9
 
-created_at (2.google.protobuf.TimestampR	createdAtBêZ3github.com/idbi/goproto/integrations/entities/v1;v1 &IDBI\\PHPProto\\Integrations\\Entities\\v1‚/IDBI\\PHPProto\\Integrations\\Entities\\v1\\Metadatabproto3'
+created_at (2.google.protobuf.TimestampR	createdAt"k
+TaskProperty
+id (	B˙Br–∞Rid
+key (	B
+˙BrˇRkey 
+value (	B
+˙BrˇRvalueBêZ3github.com/idbi/goproto/integrations/entities/v1;v1 &IDBI\\PHPProto\\Integrations\\Entities\\v1‚/IDBI\\PHPProto\\Integrations\\Entities\\v1\\Metadatabproto3'
         , true);
 
         static::$is_initialized = true;

@@ -28,21 +28,23 @@ class Messages
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Integration::initOnce();
         $pool->internalAddGeneratedFile(
             '
-‰
-
-$integrations/tasks/v1/messages.protointegrations.tasks.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto$integrations/entities/v1/owner.proto%integrations/entities/v1/result.proto\'integrations/entities/v1/artifact.proto#integrations/entities/v1/task.proto%integrations/entities/v1/status.proto*integrations/entities/v1/integration.proto"ã
+∏
+$integrations/tasks/v1/messages.protointegrations.tasks.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto$integrations/entities/v1/owner.proto%integrations/entities/v1/result.proto\'integrations/entities/v1/artifact.proto#integrations/entities/v1/task.proto%integrations/entities/v1/status.proto*integrations/entities/v1/integration.proto"ñ
 CreateTaskRequest2
-integration_id (	B˙Br–∞RintegrationIdB
+integration_id (	B˙Br–∞RintegrationIdM
 
-properties (2".integrations.entities.v1.PropertyR
+properties (2-.integrations.entities.v1.IntegrationPropertyR
 properties"Ç
 CreateTaskResponse8
 result (2 .integrations.entities.v1.ResultRresult2
 task (2.integrations.entities.v1.TaskRtask"-
 GetTaskRequest
-id (	B˙Br–∞Rid"E
+id (	B˙Br–∞Rid"ç
 GetTaskResponse2
-task (2.integrations.entities.v1.TaskRtask"3
+task (2.integrations.entities.v1.TaskRtaskF
+
+properties (2&.integrations.entities.v1.TaskPropertyR
+properties"3
 GetTaskStatusRequest
 id (	B˙Br–∞Rid"â
 GetTaskStatusResponse2
