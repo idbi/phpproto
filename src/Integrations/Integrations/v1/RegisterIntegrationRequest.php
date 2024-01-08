@@ -18,9 +18,9 @@ class RegisterIntegrationRequest extends \Google\Protobuf\Internal\Message
      */
     protected $owner_id = '';
     /**
-     * Generated from protobuf field <code>string integration_id = 2 [json_name = "integrationId", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string type_id = 2 [json_name = "typeId", (.validate.rules) = {</code>
      */
-    protected $integration_id = '';
+    protected $type_id = '';
 
     /**
      * Constructor.
@@ -29,7 +29,7 @@ class RegisterIntegrationRequest extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type string $owner_id
-     *     @type string $integration_id
+     *     @type string $type_id
      * }
      */
     public function __construct($data = NULL) {
@@ -60,23 +60,23 @@ class RegisterIntegrationRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string integration_id = 2 [json_name = "integrationId", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string type_id = 2 [json_name = "typeId", (.validate.rules) = {</code>
      * @return string
      */
-    public function getIntegrationId()
+    public function getTypeId()
     {
-        return $this->integration_id;
+        return $this->type_id;
     }
 
     /**
-     * Generated from protobuf field <code>string integration_id = 2 [json_name = "integrationId", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string type_id = 2 [json_name = "typeId", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */
-    public function setIntegrationId($var)
+    public function setTypeId($var)
     {
         GPBUtil::checkString($var, True);
-        $this->integration_id = $var;
+        $this->type_id = $var;
 
         return $this;
     }
