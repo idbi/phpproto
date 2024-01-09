@@ -28,7 +28,7 @@ class Messages
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Integration::initOnce();
         $pool->internalAddGeneratedFile(
             '
-¸
+æ
 $integrations/tasks/v1/messages.protointegrations.tasks.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto$integrations/entities/v1/owner.proto%integrations/entities/v1/result.proto\'integrations/entities/v1/artifact.proto#integrations/entities/v1/task.proto%integrations/entities/v1/status.proto*integrations/entities/v1/integration.proto"–
 CreateTaskRequest2
 integration_id (	BúBrĞ°RintegrationIdM
@@ -39,22 +39,25 @@ properties"‚
 result (2 .integrations.entities.v1.ResultRresult2
 task (2.integrations.entities.v1.TaskRtask"-
 GetTaskRequest
-id (	BúBrĞ°Rid"
-GetTaskResponse2
-task (2.integrations.entities.v1.TaskRtaskF
+id (	BúBrĞ°Rid"Ç
+GetTaskResponse8
+result (2 .integrations.entities.v1.ResultRresult2
+task (2.integrations.entities.v1.TaskRtaskF
 
-properties (2&.integrations.entities.v1.TaskPropertyR
+properties (2&.integrations.entities.v1.TaskPropertyR
 properties"3
 GetTaskStatusRequest
-id (	BúBrĞ°Rid"‰
-GetTaskStatusResponse2
-task (2.integrations.entities.v1.TaskRtask<
-statuses (2 .integrations.entities.v1.StatusRstatuses"3
+id (	BúBrĞ°Rid"Ã
+GetTaskStatusResponse8
+result (2 .integrations.entities.v1.ResultRresult2
+task (2.integrations.entities.v1.TaskRtask<
+statuses (2 .integrations.entities.v1.StatusRstatuses"3
 GetTaskResultRequest
-id (	BúBrĞ°Rid"
-GetTaskResultResponse2
-task (2.integrations.entities.v1.TaskRtask@
-	artifacts (2".integrations.entities.v1.ArtifactR	artifactsB‡Z0github.com/idbi/goproto/integrations/tasks/v1;v1Ê#IDBI\\PHPProto\\Integrations\\Tasks\\v1â,IDBI\\PHPProto\\Integrations\\Tasks\\v1\\Metadatabproto3'
+id (	BúBrĞ°Rid"Ç
+GetTaskResultResponse8
+result (2 .integrations.entities.v1.ResultRresult2
+task (2.integrations.entities.v1.TaskRtask@
+	artifacts (2".integrations.entities.v1.ArtifactR	artifactsB‡Z0github.com/idbi/goproto/integrations/tasks/v1;v1Ê#IDBI\\PHPProto\\Integrations\\Tasks\\v1â,IDBI\\PHPProto\\Integrations\\Tasks\\v1\\Metadatabproto3'
         , true);
 
         static::$is_initialized = true;
