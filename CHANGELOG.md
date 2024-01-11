@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/idbi/phpproto/compare/v0.1.7...v0.1.8) (2024-01-11)
+
+
+### Bug Fixes
+
+* use new explicit defined propery type [gsols/proto-apis@640a2b605e5d1e92a5037c8fe63b0da49fb1589f] ([53f21c1](https://github.com/idbi/phpproto/commit/53f21c123d8c5262a8c4e6eb181232b80a2b112b))
+
 ## [0.1.6](https://github.com/idbi/phpproto/compare/v0.1.5...v0.1.6) (2024-01-08)
 
 
