@@ -31,6 +31,20 @@ class ServiceClient extends \Grpc\BaseStub {
     }
 
     /**
+     * @param \IDBI\PHPProto\Integrations\Tasks\v1\GetTasksRequest $argument input argument
+     * @param array $metadata metadata
+     * @param array $options call options
+     * @return \Grpc\UnaryCall
+     */
+    public function GetTasks(\IDBI\PHPProto\Integrations\Tasks\v1\GetTasksRequest $argument,
+      $metadata = [], $options = []) {
+        return $this->_simpleRequest('/integrations.tasks.v1.Service/GetTasks',
+        $argument,
+        ['\IDBI\PHPProto\Integrations\Tasks\v1\GetTasksResponse', 'decode'],
+        $metadata, $options);
+    }
+
+    /**
      * @param \IDBI\PHPProto\Integrations\Tasks\v1\GetTaskRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
