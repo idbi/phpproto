@@ -23,11 +23,12 @@ class Service
         \IDBI\PHPProto\Integrations\Tasks\v1\Metadata\Messages::initOnce();
         $pool->internalAddGeneratedFile(
             '
-õ
-#integrations/tasks/v1/service.protointegrations.tasks.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto$integrations/tasks/v1/messages.proto2å
+ã
+#integrations/tasks/v1/service.protointegrations.tasks.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto$integrations/tasks/v1/messages.proto2¸
 Servicew
 
-CreateTask(.integrations.tasks.v1.CreateTaskRequest).integrations.tasks.v1.CreateTaskResponse"Ç”‰ì:*"	/v1/tasksp
+CreateTask(.integrations.tasks.v1.CreateTaskRequest).integrations.tasks.v1.CreateTaskResponse"Ç”‰ì:*"	/v1/tasksn
+GetTasks&.integrations.tasks.v1.GetTasksRequest\'.integrations.tasks.v1.GetTasksResponse"Ç”‰ì	/v1/tasksp
 GetTask%.integrations.tasks.v1.GetTaskRequest&.integrations.tasks.v1.GetTaskResponse"Ç”‰ì/v1/tasks/{id}â
 GetTaskStatus+.integrations.tasks.v1.GetTaskStatusRequest,.integrations.tasks.v1.GetTaskStatusResponse"Ç”‰ì/v1/tasks/{id}/statusâ
 GetTaskResult+.integrations.tasks.v1.GetTaskResultRequest,.integrations.tasks.v1.GetTaskResultResponse"Ç”‰ì/v1/tasks/{id}/resultBáZ0github.com/idbi/goproto/integrations/tasks/v1;v1 #IDBI\\PHPProto\\Integrations\\Tasks\\v1‚,IDBI\\PHPProto\\Integrations\\Tasks\\v1\\Metadatabproto3'

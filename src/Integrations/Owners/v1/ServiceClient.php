@@ -30,4 +30,18 @@ class ServiceClient extends \Grpc\BaseStub {
         $metadata, $options);
     }
 
+    /**
+     * @param \IDBI\PHPProto\Integrations\Owners\v1\GetOwnerRequest $argument input argument
+     * @param array $metadata metadata
+     * @param array $options call options
+     * @return \Grpc\UnaryCall
+     */
+    public function GetOwner(\IDBI\PHPProto\Integrations\Owners\v1\GetOwnerRequest $argument,
+      $metadata = [], $options = []) {
+        return $this->_simpleRequest('/integrations.owners.v1.Service/GetOwner',
+        $argument,
+        ['\IDBI\PHPProto\Integrations\Owners\v1\GetOwnerResponse', 'decode'],
+        $metadata, $options);
+    }
+
 }

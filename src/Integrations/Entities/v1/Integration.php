@@ -26,11 +26,15 @@ class Integration extends \Google\Protobuf\Internal\Message
      */
     protected $description = '';
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 4 [json_name = "owner"];</code>
+     * Generated from protobuf field <code>.integrations.entities.v1.IntegrationType type = 4 [json_name = "type"];</code>
+     */
+    protected $type = null;
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 5 [json_name = "owner"];</code>
      */
     protected $owner = null;
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 6 [json_name = "createdAt"];</code>
      */
     protected $created_at = null;
 
@@ -43,6 +47,7 @@ class Integration extends \Google\Protobuf\Internal\Message
      *     @type string $id
      *     @type string $name
      *     @type string $description
+     *     @type \IDBI\PHPProto\Integrations\Entities\v1\IntegrationType $type
      *     @type \IDBI\PHPProto\Integrations\Entities\v1\Owner $owner
      *     @type \Google\Protobuf\Timestamp $created_at
      * }
@@ -119,7 +124,39 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 4 [json_name = "owner"];</code>
+     * Generated from protobuf field <code>.integrations.entities.v1.IntegrationType type = 4 [json_name = "type"];</code>
+     * @return \IDBI\PHPProto\Integrations\Entities\v1\IntegrationType|null
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    public function hasType()
+    {
+        return isset($this->type);
+    }
+
+    public function clearType()
+    {
+        unset($this->type);
+    }
+
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.IntegrationType type = 4 [json_name = "type"];</code>
+     * @param \IDBI\PHPProto\Integrations\Entities\v1\IntegrationType $var
+     * @return $this
+     */
+    public function setType($var)
+    {
+        GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\IntegrationType::class);
+        $this->type = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 5 [json_name = "owner"];</code>
      * @return \IDBI\PHPProto\Integrations\Entities\v1\Owner|null
      */
     public function getOwner()
@@ -138,7 +175,7 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 4 [json_name = "owner"];</code>
+     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 5 [json_name = "owner"];</code>
      * @param \IDBI\PHPProto\Integrations\Entities\v1\Owner $var
      * @return $this
      */
@@ -151,7 +188,7 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 6 [json_name = "createdAt"];</code>
      * @return \Google\Protobuf\Timestamp|null
      */
     public function getCreatedAt()
@@ -170,7 +207,7 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 6 [json_name = "createdAt"];</code>
      * @param \Google\Protobuf\Timestamp $var
      * @return $this
      */

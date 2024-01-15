@@ -23,11 +23,12 @@ class Service
         \IDBI\PHPProto\Integrations\Owners\v1\Metadata\Messages::initOnce();
         $pool->internalAddGeneratedFile(
             '
-ù
-$integrations/owners/v1/service.protointegrations.owners.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto%integrations/owners/v1/messages.proto2à
+ï
+$integrations/owners/v1/service.protointegrations.owners.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto%integrations/owners/v1/messages.proto2Ä
 Service}
 CreateOwner*.integrations.owners.v1.CreateOwnerRequest+.integrations.owners.v1.CreateOwnerResponse"Ç”‰ì:*"
-/v1/ownersBäZ1github.com/idbi/goproto/integrations/owners/v1;v1 $IDBI\\PHPProto\\Integrations\\Owners\\v1‚-IDBI\\PHPProto\\Integrations\\Owners\\v1\\Metadatabproto3'
+/v1/ownersv
+GetOwner\'.integrations.owners.v1.GetOwnerRequest(.integrations.owners.v1.GetOwnerResponse"Ç”‰ì/v1/owners/{id}BäZ1github.com/idbi/goproto/integrations/owners/v1;v1 $IDBI\\PHPProto\\Integrations\\Owners\\v1‚-IDBI\\PHPProto\\Integrations\\Owners\\v1\\Metadatabproto3'
         , true);
 
         static::$is_initialized = true;

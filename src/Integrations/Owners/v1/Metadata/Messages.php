@@ -25,12 +25,17 @@ class Messages
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Integration::initOnce();
         $pool->internalAddGeneratedFile(
             '
-¤
+×
 %integrations/owners/v1/messages.protointegrations.owners.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto$integrations/entities/v1/owner.proto%integrations/entities/v1/result.proto*integrations/entities/v1/integration.proto"4
 CreateOwnerRequest
 name (	B
 úBrÿRname"†
 CreateOwnerResponse8
+result (2 .integrations.entities.v1.ResultRresult5
+owner (2.integrations.entities.v1.OwnerRowner"+
+GetOwnerRequest
+id (	BúBr°Rid"ƒ
+GetOwnerResponse8
 result (2 .integrations.entities.v1.ResultRresult5
 owner (2.integrations.entities.v1.OwnerRownerBŠZ1github.com/idbi/goproto/integrations/owners/v1;v1Ê$IDBI\\PHPProto\\Integrations\\Owners\\v1â-IDBI\\PHPProto\\Integrations\\Owners\\v1\\Metadatabproto3'
         , true);
