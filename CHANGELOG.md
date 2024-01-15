@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/idbi/phpproto/compare/v0.1.8...v0.2.0) (2024-01-15)
+
+
+### Features
+
+* add get owner to check if exists [gsols/proto-apis@c4b7cb46ab43461dddb067cfcc5f58028ccaf902] ([74ca4f8](https://github.com/idbi/phpproto/commit/74ca4f82dbfcca4175afbfac272d3208be8afd95))
+
 ## [0.1.8](https://github.com/idbi/phpproto/compare/v0.1.7...v0.1.8) (2024-01-11)
 
 
