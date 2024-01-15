@@ -26,15 +26,19 @@ class Integration extends \Google\Protobuf\Internal\Message
      */
     protected $description = '';
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.IntegrationType type = 4 [json_name = "type"];</code>
+     * Generated from protobuf field <code>bool is_enabled = 4 [json_name = "isEnabled"];</code>
      */
-    protected $type = null;
+    protected $is_enabled = false;
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 5 [json_name = "owner"];</code>
+     * Generated from protobuf field <code>string type_id = 5 [json_name = "typeId", (.validate.rules) = {</code>
+     */
+    protected $type_id = '';
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 6 [json_name = "owner"];</code>
      */
     protected $owner = null;
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 6 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 7 [json_name = "createdAt"];</code>
      */
     protected $created_at = null;
 
@@ -47,7 +51,8 @@ class Integration extends \Google\Protobuf\Internal\Message
      *     @type string $id
      *     @type string $name
      *     @type string $description
-     *     @type \IDBI\PHPProto\Integrations\Entities\v1\IntegrationType $type
+     *     @type bool $is_enabled
+     *     @type string $type_id
      *     @type \IDBI\PHPProto\Integrations\Entities\v1\Owner $owner
      *     @type \Google\Protobuf\Timestamp $created_at
      * }
@@ -124,39 +129,51 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.IntegrationType type = 4 [json_name = "type"];</code>
-     * @return \IDBI\PHPProto\Integrations\Entities\v1\IntegrationType|null
+     * Generated from protobuf field <code>bool is_enabled = 4 [json_name = "isEnabled"];</code>
+     * @return bool
      */
-    public function getType()
+    public function getIsEnabled()
     {
-        return $this->type;
-    }
-
-    public function hasType()
-    {
-        return isset($this->type);
-    }
-
-    public function clearType()
-    {
-        unset($this->type);
+        return $this->is_enabled;
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.IntegrationType type = 4 [json_name = "type"];</code>
-     * @param \IDBI\PHPProto\Integrations\Entities\v1\IntegrationType $var
+     * Generated from protobuf field <code>bool is_enabled = 4 [json_name = "isEnabled"];</code>
+     * @param bool $var
      * @return $this
      */
-    public function setType($var)
+    public function setIsEnabled($var)
     {
-        GPBUtil::checkMessage($var, \IDBI\PHPProto\Integrations\Entities\v1\IntegrationType::class);
-        $this->type = $var;
+        GPBUtil::checkBool($var);
+        $this->is_enabled = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 5 [json_name = "owner"];</code>
+     * Generated from protobuf field <code>string type_id = 5 [json_name = "typeId", (.validate.rules) = {</code>
+     * @return string
+     */
+    public function getTypeId()
+    {
+        return $this->type_id;
+    }
+
+    /**
+     * Generated from protobuf field <code>string type_id = 5 [json_name = "typeId", (.validate.rules) = {</code>
+     * @param string $var
+     * @return $this
+     */
+    public function setTypeId($var)
+    {
+        GPBUtil::checkString($var, True);
+        $this->type_id = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 6 [json_name = "owner"];</code>
      * @return \IDBI\PHPProto\Integrations\Entities\v1\Owner|null
      */
     public function getOwner()
@@ -175,7 +192,7 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 5 [json_name = "owner"];</code>
+     * Generated from protobuf field <code>.integrations.entities.v1.Owner owner = 6 [json_name = "owner"];</code>
      * @param \IDBI\PHPProto\Integrations\Entities\v1\Owner $var
      * @return $this
      */
@@ -188,7 +205,7 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 6 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 7 [json_name = "createdAt"];</code>
      * @return \Google\Protobuf\Timestamp|null
      */
     public function getCreatedAt()
@@ -207,7 +224,7 @@ class Integration extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 6 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 7 [json_name = "createdAt"];</code>
      * @param \Google\Protobuf\Timestamp $var
      * @return $this
      */
