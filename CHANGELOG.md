@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/idbi/phpproto/compare/v0.2.0...v0.2.1) (2024-01-15)
+
+
+### Bug Fixes
+
+* allow to specify owner id [gsols/proto-apis@7943bfdd8e5503145f51738cdc7248e3880e0cbc] ([a6c875f](https://github.com/idbi/phpproto/commit/a6c875f6169fda43d5a0761b183e74dee29725ce))
+
 ## [0.2.0](https://github.com/idbi/phpproto/compare/v0.1.8...v0.2.0) (2024-01-15)
 
 
