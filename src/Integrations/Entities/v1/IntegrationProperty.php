@@ -18,13 +18,21 @@ class IntegrationProperty extends \Google\Protobuf\Internal\Message
      */
     protected $id = '';
     /**
-     * Generated from protobuf field <code>string key = 2 [json_name = "key", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string name = 2 [json_name = "name", (.validate.rules) = {</code>
+     */
+    protected $name = '';
+    /**
+     * Generated from protobuf field <code>string key = 3 [json_name = "key", (.validate.rules) = {</code>
      */
     protected $key = '';
     /**
-     * Generated from protobuf field <code>string value = 3 [json_name = "value", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string value = 4 [json_name = "value", (.validate.rules) = {</code>
      */
     protected $value = '';
+    /**
+     * Generated from protobuf field <code>bool is_editable = 5 [json_name = "isEditable"];</code>
+     */
+    protected $is_editable = false;
 
     /**
      * Constructor.
@@ -33,8 +41,10 @@ class IntegrationProperty extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type string $id
+     *     @type string $name
      *     @type string $key
      *     @type string $value
+     *     @type bool $is_editable
      * }
      */
     public function __construct($data = NULL) {
@@ -65,7 +75,29 @@ class IntegrationProperty extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string key = 2 [json_name = "key", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string name = 2 [json_name = "name", (.validate.rules) = {</code>
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Generated from protobuf field <code>string name = 2 [json_name = "name", (.validate.rules) = {</code>
+     * @param string $var
+     * @return $this
+     */
+    public function setName($var)
+    {
+        GPBUtil::checkString($var, True);
+        $this->name = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>string key = 3 [json_name = "key", (.validate.rules) = {</code>
      * @return string
      */
     public function getKey()
@@ -74,7 +106,7 @@ class IntegrationProperty extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string key = 2 [json_name = "key", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string key = 3 [json_name = "key", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */
@@ -87,7 +119,7 @@ class IntegrationProperty extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string value = 3 [json_name = "value", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string value = 4 [json_name = "value", (.validate.rules) = {</code>
      * @return string
      */
     public function getValue()
@@ -96,7 +128,7 @@ class IntegrationProperty extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string value = 3 [json_name = "value", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string value = 4 [json_name = "value", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */
@@ -104,6 +136,28 @@ class IntegrationProperty extends \Google\Protobuf\Internal\Message
     {
         GPBUtil::checkString($var, True);
         $this->value = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>bool is_editable = 5 [json_name = "isEditable"];</code>
+     * @return bool
+     */
+    public function getIsEditable()
+    {
+        return $this->is_editable;
+    }
+
+    /**
+     * Generated from protobuf field <code>bool is_editable = 5 [json_name = "isEditable"];</code>
+     * @param bool $var
+     * @return $this
+     */
+    public function setIsEditable($var)
+    {
+        GPBUtil::checkBool($var);
+        $this->is_editable = $var;
 
         return $this;
     }
