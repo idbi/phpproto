@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/idbi/phpproto/compare/v0.2.1...v0.2.2) (2024-01-16)
+
+
+### Bug Fixes
+
+* add new properties to ui [gsols/proto-apis@677ea98651eb86dfc28ae79fe0a38cd608a39acf] ([dc318e7](https://github.com/idbi/phpproto/commit/dc318e76d5112ad3c5e9824897e109e1cf81a666))
+
 ## [0.2.1](https://github.com/idbi/phpproto/compare/v0.2.0...v0.2.1) (2024-01-15)
 
 
