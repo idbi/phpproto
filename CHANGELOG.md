@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.6](https://github.com/idbi/phpproto/compare/v0.2.5...v0.2.6) (2024-01-17)
+
+
+### Bug Fixes
+
+* add retries field to response [gsols/proto-apis@8cbceb84797fdc415bdb0308f3525509ca313bea] ([06db0af](https://github.com/idbi/phpproto/commit/06db0afd4753aaec44017d979e0032a18a993987))
+
 ## [0.2.5](https://github.com/idbi/phpproto/compare/v0.2.4...v0.2.5) (2024-01-17)
 
 
