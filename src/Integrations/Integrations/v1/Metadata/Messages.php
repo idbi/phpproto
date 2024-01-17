@@ -25,7 +25,7 @@ class Messages
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Owner::initOnce();
         $pool->internalAddGeneratedFile(
             '
-Î
+Á
 +integrations/integrations/v1/messages.protointegrations.integrations.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto*integrations/entities/v1/integration.proto%integrations/entities/v1/result.proto$integrations/entities/v1/owner.proto"=
 GetIntegrationsRequest#
 owner_id (	B˙Br∞RownerId"û
@@ -51,11 +51,16 @@ properties"a
 result (2 .integrations.entities.v1.ResultRresultM
 
 properties (2-.integrations.entities.v1.IntegrationPropertyR
-properties"ç
-"RemoveIntegrationPropertiesRequest/
+properties"û
+ UpdateIntegrationPropertyRequest/
+integration_id (	B˙Br∞RintegrationIdI
+property (2-.integrations.entities.v1.IntegrationPropertyRproperty"]
+!UpdateIntegrationPropertyResponse8
+result (2 .integrations.entities.v1.ResultRresult"ã
+ RemoveIntegrationPropertyRequest/
 integration_id (	B˙Br∞RintegrationId6
-property_ids (	B˙Bíd"r∞RpropertyIds"_
-#RemoveIntegrationPropertiesResponse8
+property_ids (	B˙Bíd"r∞RpropertyIds"]
+!RemoveIntegrationPropertyResponse8
 result (2 .integrations.entities.v1.ResultRresultBúZ7github.com/idbi/goproto/integrations/integrations/v1;v1 *IDBI\\PHPProto\\Integrations\\Integrations\\v1‚3IDBI\\PHPProto\\Integrations\\Integrations\\v1\\Metadatabproto3'
         , true);
 

@@ -23,14 +23,15 @@ class Service
         \IDBI\PHPProto\Integrations\Integrations\v1\Metadata\Messages::initOnce();
         $pool->internalAddGeneratedFile(
             '
-¶
-*integrations/integrations/v1/service.protointegrations.integrations.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto+integrations/integrations/v1/messages.proto2Ì
+Ü
+*integrations/integrations/v1/service.protointegrations.integrations.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto+integrations/integrations/v1/messages.proto2Õ	
 Serviceò
 GetIntegrations4.integrations.integrations.v1.GetIntegrationsRequest5.integrations.integrations.v1.GetIntegrationsResponse"Ç”‰ì/v1/integrationsß
 RegisterIntegration8.integrations.integrations.v1.RegisterIntegrationRequest9.integrations.integrations.v1.RegisterIntegrationResponse"Ç”‰ì:*"/v1/integrations·
 RegisterIntegrationPropertiesB.integrations.integrations.v1.RegisterIntegrationPropertiesRequestC.integrations.integrations.v1.RegisterIntegrationPropertiesResponse"7Ç”‰ì1:*",/v1/integrations/{integration_id}/propertiesœ
-GetIntegrationProperties=.integrations.integrations.v1.GetIntegrationPropertiesRequest>.integrations.integrations.v1.GetIntegrationPropertiesResponse"4Ç”‰ì.,/v1/integrations/{integration_id}/propertiesÊ
-RemoveIntegrationProperties@.integrations.integrations.v1.RemoveIntegrationPropertiesRequestA.integrations.integrations.v1.RemoveIntegrationPropertiesResponse"BÇ”‰ì<*:/v1/integrations/{integration_id}/properties/{property_id}BúZ7github.com/idbi/goproto/integrations/integrations/v1;v1 *IDBI\\PHPProto\\Integrations\\Integrations\\v1‚3IDBI\\PHPProto\\Integrations\\Integrations\\v1\\Metadatabproto3'
+GetIntegrationProperties=.integrations.integrations.v1.GetIntegrationPropertiesRequest>.integrations.integrations.v1.GetIntegrationPropertiesResponse"4Ç”‰ì.,/v1/integrations/{integration_id}/properties„
+UpdateIntegrationProperty>.integrations.integrations.v1.UpdateIntegrationPropertyRequest?.integrations.integrations.v1.UpdateIntegrationPropertyResponse"EÇ”‰ì?:*2:/v1/integrations/{integration_id}/properties/{property_id}‡
+RemoveIntegrationProperty>.integrations.integrations.v1.RemoveIntegrationPropertyRequest?.integrations.integrations.v1.RemoveIntegrationPropertyResponse"BÇ”‰ì<*:/v1/integrations/{integration_id}/properties/{property_id}BúZ7github.com/idbi/goproto/integrations/integrations/v1;v1 *IDBI\\PHPProto\\Integrations\\Integrations\\v1‚3IDBI\\PHPProto\\Integrations\\Integrations\\v1\\Metadatabproto3'
         , true);
 
         static::$is_initialized = true;

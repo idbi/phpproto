@@ -73,16 +73,30 @@ class ServiceClient extends \Grpc\BaseStub {
     }
 
     /**
-     * @param \IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationPropertiesRequest $argument input argument
+     * @param \IDBI\PHPProto\Integrations\Integrations\v1\UpdateIntegrationPropertyRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
      * @return \Grpc\UnaryCall
      */
-    public function RemoveIntegrationProperties(\IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationPropertiesRequest $argument,
+    public function UpdateIntegrationProperty(\IDBI\PHPProto\Integrations\Integrations\v1\UpdateIntegrationPropertyRequest $argument,
       $metadata = [], $options = []) {
-        return $this->_simpleRequest('/integrations.integrations.v1.Service/RemoveIntegrationProperties',
+        return $this->_simpleRequest('/integrations.integrations.v1.Service/UpdateIntegrationProperty',
         $argument,
-        ['\IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationPropertiesResponse', 'decode'],
+        ['\IDBI\PHPProto\Integrations\Integrations\v1\UpdateIntegrationPropertyResponse', 'decode'],
+        $metadata, $options);
+    }
+
+    /**
+     * @param \IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationPropertyRequest $argument input argument
+     * @param array $metadata metadata
+     * @param array $options call options
+     * @return \Grpc\UnaryCall
+     */
+    public function RemoveIntegrationProperty(\IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationPropertyRequest $argument,
+      $metadata = [], $options = []) {
+        return $this->_simpleRequest('/integrations.integrations.v1.Service/RemoveIntegrationProperty',
+        $argument,
+        ['\IDBI\PHPProto\Integrations\Integrations\v1\RemoveIntegrationPropertyResponse', 'decode'],
         $metadata, $options);
     }
 
