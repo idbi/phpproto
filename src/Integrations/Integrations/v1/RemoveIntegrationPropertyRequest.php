@@ -18,9 +18,9 @@ class RemoveIntegrationPropertyRequest extends \Google\Protobuf\Internal\Message
      */
     protected $integration_id = '';
     /**
-     * Generated from protobuf field <code>string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string property_id = 2 [json_name = "propertyId", (.validate.rules) = {</code>
      */
-    protected $property_ids = '';
+    protected $property_id = '';
 
     /**
      * Constructor.
@@ -29,7 +29,7 @@ class RemoveIntegrationPropertyRequest extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type string $integration_id
-     *     @type string $property_ids
+     *     @type string $property_id
      * }
      */
     public function __construct($data = NULL) {
@@ -60,23 +60,23 @@ class RemoveIntegrationPropertyRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string property_id = 2 [json_name = "propertyId", (.validate.rules) = {</code>
      * @return string
      */
-    public function getPropertyIds()
+    public function getPropertyId()
     {
-        return $this->property_ids;
+        return $this->property_id;
     }
 
     /**
-     * Generated from protobuf field <code>string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string property_id = 2 [json_name = "propertyId", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */
-    public function setPropertyIds($var)
+    public function setPropertyId($var)
     {
         GPBUtil::checkString($var, True);
-        $this->property_ids = $var;
+        $this->property_id = $var;
 
         return $this;
     }
