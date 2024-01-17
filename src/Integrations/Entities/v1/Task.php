@@ -22,11 +22,15 @@ class Task extends \Google\Protobuf\Internal\Message
      */
     protected $name = '';
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Status status = 3 [json_name = "status"];</code>
+     * Generated from protobuf field <code>uint32 retries = 3 [json_name = "retries"];</code>
+     */
+    protected $retries = 0;
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Status status = 4 [json_name = "status"];</code>
      */
     protected $status = null;
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 4 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
      */
     protected $created_at = null;
 
@@ -38,6 +42,7 @@ class Task extends \Google\Protobuf\Internal\Message
      *
      *     @type string $id
      *     @type string $name
+     *     @type int $retries
      *     @type \IDBI\PHPProto\Integrations\Entities\v1\Status $status
      *     @type \Google\Protobuf\Timestamp $created_at
      * }
@@ -92,7 +97,29 @@ class Task extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Status status = 3 [json_name = "status"];</code>
+     * Generated from protobuf field <code>uint32 retries = 3 [json_name = "retries"];</code>
+     * @return int
+     */
+    public function getRetries()
+    {
+        return $this->retries;
+    }
+
+    /**
+     * Generated from protobuf field <code>uint32 retries = 3 [json_name = "retries"];</code>
+     * @param int $var
+     * @return $this
+     */
+    public function setRetries($var)
+    {
+        GPBUtil::checkUint32($var);
+        $this->retries = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>.integrations.entities.v1.Status status = 4 [json_name = "status"];</code>
      * @return \IDBI\PHPProto\Integrations\Entities\v1\Status|null
      */
     public function getStatus()
@@ -111,7 +138,7 @@ class Task extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.integrations.entities.v1.Status status = 3 [json_name = "status"];</code>
+     * Generated from protobuf field <code>.integrations.entities.v1.Status status = 4 [json_name = "status"];</code>
      * @param \IDBI\PHPProto\Integrations\Entities\v1\Status $var
      * @return $this
      */
@@ -124,7 +151,7 @@ class Task extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 4 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
      * @return \Google\Protobuf\Timestamp|null
      */
     public function getCreatedAt()
@@ -143,7 +170,7 @@ class Task extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 4 [json_name = "createdAt"];</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp created_at = 5 [json_name = "createdAt"];</code>
      * @param \Google\Protobuf\Timestamp $var
      * @return $this
      */
