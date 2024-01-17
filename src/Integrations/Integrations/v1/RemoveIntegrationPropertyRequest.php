@@ -18,9 +18,9 @@ class RemoveIntegrationPropertyRequest extends \Google\Protobuf\Internal\Message
      */
     protected $integration_id = '';
     /**
-     * Generated from protobuf field <code>repeated string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
      */
-    private $property_ids;
+    protected $property_ids = '';
 
     /**
      * Constructor.
@@ -29,7 +29,7 @@ class RemoveIntegrationPropertyRequest extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type string $integration_id
-     *     @type array<string>|\Google\Protobuf\Internal\RepeatedField $property_ids
+     *     @type string $property_ids
      * }
      */
     public function __construct($data = NULL) {
@@ -60,8 +60,8 @@ class RemoveIntegrationPropertyRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
-     * @return \Google\Protobuf\Internal\RepeatedField
+     * Generated from protobuf field <code>string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
+     * @return string
      */
     public function getPropertyIds()
     {
@@ -69,14 +69,14 @@ class RemoveIntegrationPropertyRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
-     * @param array<string>|\Google\Protobuf\Internal\RepeatedField $var
+     * Generated from protobuf field <code>string property_ids = 2 [json_name = "propertyIds", (.validate.rules) = {</code>
+     * @param string $var
      * @return $this
      */
     public function setPropertyIds($var)
     {
-        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::STRING);
-        $this->property_ids = $arr;
+        GPBUtil::checkString($var, True);
+        $this->property_ids = $var;
 
         return $this;
     }
