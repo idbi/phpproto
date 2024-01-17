@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/idbi/phpproto/compare/v0.2.3...v0.2.4) (2024-01-17)
+
+
+### Bug Fixes
+
+* parameter count [gsols/proto-apis@082714e87d9b6f3aae0234519500f377ba6ae052] ([a1d0884](https://github.com/idbi/phpproto/commit/a1d08846fe78c2ad5cc1a854783298410af8104a))
+
 ## [0.2.3](https://github.com/idbi/phpproto/compare/v0.2.2...v0.2.3) (2024-01-17)
 
 
