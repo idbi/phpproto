@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.5](https://github.com/idbi/phpproto/compare/v0.2.4...v0.2.5) (2024-01-17)
+
+
+### Bug Fixes
+
+* typo [gsols/proto-apis@35785852816a3c794f10b8ff25d3ca09182d3983] ([fd24653](https://github.com/idbi/phpproto/commit/fd24653cb6a2a9facba41d1d6c45222e19b06361))
+
 ## [0.2.4](https://github.com/idbi/phpproto/compare/v0.2.3...v0.2.4) (2024-01-17)
 
 
