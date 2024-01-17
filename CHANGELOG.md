@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/idbi/phpproto/compare/v0.2.2...v0.2.3) (2024-01-17)
+
+
+### Bug Fixes
+
+* add update property. this allows to update and not remove and add again [gsols/proto-apis@d21248adb490f56b42fc753f7b683eb213bbcfb8] ([5b0850c](https://github.com/idbi/phpproto/commit/5b0850cc3aae5091e123511a01d7ae25c9d3d80e))
+
 ## [0.2.2](https://github.com/idbi/phpproto/compare/v0.2.1...v0.2.2) (2024-01-16)
 
 
