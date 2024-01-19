@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.7](https://github.com/idbi/phpproto/compare/v0.2.6...v0.2.7) (2024-01-19)
+
+
+### Bug Fixes
+
+* type on page size [gsols/proto-apis@7de489d00a241e00ec854bb0505253b0071b8302] ([b0a84ab](https://github.com/idbi/phpproto/commit/b0a84abea8c1e6110436875d4c34f7f6f84ada6e))
+
 ## [0.2.6](https://github.com/idbi/phpproto/compare/v0.2.5...v0.2.6) (2024-01-17)
 
 
