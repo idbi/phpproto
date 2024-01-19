@@ -3,7 +3,7 @@
   "description": "PHP Protobuf implementation for gRPC",
   "license": "MIT",
   "type": "library",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "keywords": [
     "proto",
     "grpc",
