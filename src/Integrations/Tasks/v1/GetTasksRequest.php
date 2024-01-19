@@ -18,7 +18,7 @@ class GetTasksRequest extends \Google\Protobuf\Internal\Message
      */
     protected $integration_id = '';
     /**
-     * Generated from protobuf field <code>int32 page_size = 2 [json_name = "pageSize", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>uint32 page_size = 2 [json_name = "pageSize", (.validate.rules) = {</code>
      */
     protected $page_size = 0;
     /**
@@ -65,7 +65,7 @@ class GetTasksRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>int32 page_size = 2 [json_name = "pageSize", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>uint32 page_size = 2 [json_name = "pageSize", (.validate.rules) = {</code>
      * @return int
      */
     public function getPageSize()
@@ -74,13 +74,13 @@ class GetTasksRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>int32 page_size = 2 [json_name = "pageSize", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>uint32 page_size = 2 [json_name = "pageSize", (.validate.rules) = {</code>
      * @param int $var
      * @return $this
      */
     public function setPageSize($var)
     {
-        GPBUtil::checkInt32($var);
+        GPBUtil::checkUint32($var);
         $this->page_size = $var;
 
         return $this;

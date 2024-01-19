@@ -40,7 +40,7 @@ properties"‚
 task (2.integrations.entities.v1.TaskRtask"˜
 GetTasksRequest/
 integration_id (	BúBr°RintegrationId&
-	page_size (B	úBd(RpageSize,
+	page_size (B	úBd(RpageSize,
 
 page_token (	BúB
 rÿĞR	pageToken"¹
