@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.8](https://github.com/idbi/phpproto/compare/v0.2.7...v0.2.8) (2024-01-19)
+
+
+### Bug Fixes
+
+* validation rules [gsols/proto-apis@66fd51018d10db7023e72d1a59aa16fa2ea668ff] ([2dcd0d7](https://github.com/idbi/phpproto/commit/2dcd0d75a145ac84f0bac854012c51094994370c))
+
 ## [0.2.7](https://github.com/idbi/phpproto/compare/v0.2.6...v0.2.7) (2024-01-19)
 
 
