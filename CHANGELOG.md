@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/idbi/phpproto/compare/v0.2.8...v0.3.0) (2024-02-07)
+
+
+### Features
+
+* split retry definition [gsols/proto-apis@d7a9ebd2bef70311420b15533f0ad3d661db87c7] ([a2e9919](https://github.com/idbi/phpproto/commit/a2e991987b7ba9faa3e2c7a43dc849a7f225636d))
+
 ## [0.2.8](https://github.com/idbi/phpproto/compare/v0.2.7...v0.2.8) (2024-01-19)
 
 
