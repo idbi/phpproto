@@ -31,6 +31,20 @@ class ServiceClient extends \Grpc\BaseStub {
     }
 
     /**
+     * @param \IDBI\PHPProto\Integrations\Tasks\v1\RetryTaskRequest $argument input argument
+     * @param array $metadata metadata
+     * @param array $options call options
+     * @return \Grpc\UnaryCall
+     */
+    public function RetryTask(\IDBI\PHPProto\Integrations\Tasks\v1\RetryTaskRequest $argument,
+      $metadata = [], $options = []) {
+        return $this->_simpleRequest('/integrations.tasks.v1.Service/RetryTask',
+        $argument,
+        ['\IDBI\PHPProto\Integrations\Tasks\v1\RetryTaskResponse', 'decode'],
+        $metadata, $options);
+    }
+
+    /**
      * @param \IDBI\PHPProto\Integrations\Tasks\v1\GetTasksRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
