@@ -28,12 +28,14 @@ class Messages
         \IDBI\PHPProto\Integrations\Entities\v1\Metadata\Integration::initOnce();
         $pool->internalAddGeneratedFile(
             '
-Ü
-$integrations/tasks/v1/messages.protointegrations.tasks.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto$integrations/entities/v1/owner.proto%integrations/entities/v1/result.proto\'integrations/entities/v1/artifact.proto#integrations/entities/v1/task.proto%integrations/entities/v1/status.proto*integrations/entities/v1/integration.proto"Œ
-CreateTaskRequest/
-integration_id (	BúBr°RintegrationIdF
+ü
+$integrations/tasks/v1/messages.protointegrations.tasks.v1google/api/field_behavior.protogoogle/protobuf/wrappers.protogoogle/protobuf/empty.protogoogle/protobuf/timestamp.protovalidate/validate.proto$integrations/entities/v1/owner.proto%integrations/entities/v1/result.proto\'integrations/entities/v1/artifact.proto#integrations/entities/v1/task.proto%integrations/entities/v1/status.proto*integrations/entities/v1/integration.proto"¬
+CreateTaskRequest
+name (	B
+úBrÿRname/
+integration_id (	BúBr°RintegrationIdF
 
-properties (2&.integrations.entities.v1.TaskPropertyR
+properties (2&.integrations.entities.v1.TaskPropertyR
 properties"‚
 CreateTaskResponse8
 result (2 .integrations.entities.v1.ResultRresult2
