@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/idbi/phpproto/compare/v0.3.0...v0.4.0) (2024-03-08)
+
+
+### Features
+
+* add name on task creation [gsols/proto-apis@b0db38708638acf9e34eb600d3a386e00dfda8da] ([71c5f1e](https://github.com/idbi/phpproto/commit/71c5f1e76a3e311ac2bab1c6c330b71f0ea0b1bc))
+
 ## [0.3.0](https://github.com/idbi/phpproto/compare/v0.2.8...v0.3.0) (2024-02-07)
 
 
