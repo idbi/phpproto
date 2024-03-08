@@ -14,11 +14,15 @@ use Google\Protobuf\Internal\GPBUtil;
 class CreateTaskRequest extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string name = 1 [json_name = "name", (.validate.rules) = {</code>
+     */
+    protected $name = '';
+    /**
+     * Generated from protobuf field <code>string integration_id = 2 [json_name = "integrationId", (.validate.rules) = {</code>
      */
     protected $integration_id = '';
     /**
-     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 2 [json_name = "properties"];</code>
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 3 [json_name = "properties"];</code>
      */
     private $properties;
 
@@ -28,6 +32,7 @@ class CreateTaskRequest extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
+     *     @type string $name
      *     @type string $integration_id
      *     @type array<\IDBI\PHPProto\Integrations\Entities\v1\TaskProperty>|\Google\Protobuf\Internal\RepeatedField $properties
      * }
@@ -38,7 +43,29 @@ class CreateTaskRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string name = 1 [json_name = "name", (.validate.rules) = {</code>
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Generated from protobuf field <code>string name = 1 [json_name = "name", (.validate.rules) = {</code>
+     * @param string $var
+     * @return $this
+     */
+    public function setName($var)
+    {
+        GPBUtil::checkString($var, True);
+        $this->name = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>string integration_id = 2 [json_name = "integrationId", (.validate.rules) = {</code>
      * @return string
      */
     public function getIntegrationId()
@@ -47,7 +74,7 @@ class CreateTaskRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string integration_id = 1 [json_name = "integrationId", (.validate.rules) = {</code>
+     * Generated from protobuf field <code>string integration_id = 2 [json_name = "integrationId", (.validate.rules) = {</code>
      * @param string $var
      * @return $this
      */
@@ -60,7 +87,7 @@ class CreateTaskRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 2 [json_name = "properties"];</code>
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 3 [json_name = "properties"];</code>
      * @return \Google\Protobuf\Internal\RepeatedField
      */
     public function getProperties()
@@ -69,7 +96,7 @@ class CreateTaskRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 2 [json_name = "properties"];</code>
+     * Generated from protobuf field <code>repeated .integrations.entities.v1.TaskProperty properties = 3 [json_name = "properties"];</code>
      * @param array<\IDBI\PHPProto\Integrations\Entities\v1\TaskProperty>|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
